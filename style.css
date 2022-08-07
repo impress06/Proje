@@ -1,0 +1,209 @@
+*
+{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  background-color: #F6ECEC;
+  position: relative;
+
+}
+
+section
+{
+  width: 70%;
+  height: auto;
+  
+  margin:120px auto;
+  background-color: white;
+  overflow: auto;
+  border-radius: 35px;
+  
+}
+header{
+  width: 100%;
+  height: 190px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 35px;
+  
+
+}
+.first
+{
+  height: 70px;
+  width: 400px;
+ 
+  display: flex;
+  gap: 30px;
+}
+
+.logo img
+{
+  height: 56px;
+  width: 156px;
+  margin-left: 50px;
+  
+}
+
+
+  
+nav ul
+{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+nav ul li a
+{
+  text-decoration: none;
+  font-size: 22px;
+}
+button
+{
+  color:white;
+  background-color: red;
+  padding: 20px 40px;
+  border-radius: 30px;
+  border: none;
+  margin-left: 5px;
+}
+.orta
+{width: 100%;
+  height: 600px;
+  
+  display: flex;
+  padding-left: 50px;
+
+}
+.orta1
+{
+  width: 50%;
+  height: 570px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+ 
+}
+.orta2
+{
+  width: 50%;
+  height: 570px;
+ 
+  display: flex;
+  position: relative;
+  
+
+  
+  
+ 
+}
+.ortaa1
+{
+  width: 40%;
+  height: 570px;
+ 
+  opacity: 0.8;
+  
+  filter:blur(10px);
+  
+  background-color: white;
+ 
+  position: absolute;
+}
+.oimg img
+{
+  width: 100%;
+  
+  
+ }
+.btn
+{
+  color:white;
+  background-color: red;
+  padding: 20px 20px;
+  border-radius: 30px;
+  width: 200px;
+  border: none;
+  
+}
+.orta1 h1
+{
+  font-size: 72px;
+  letter-spacing: -2px;
+}
+.orta1 p
+{
+  font-size:36px ;
+}
+.recomended
+{width: 100%;
+  
+ 
+  height: 800px;
+  
+  text-align: center;
+  
+}
+.recomended h1
+{
+  font-size: 30px;
+}
+.pizzaarea
+{
+  width: 30%;
+  height: 560px;
+ border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  border:0.5px solid rgb(49, 49, 49);
+  margin-top:20px
+}
+.pizzaarea h3
+{
+  color:green;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.pizzaarea h1
+{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.pizzaarea p
+{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.pizzaarea input
+{display: block;
+margin-left: 150px;
+margin-bottom: 20px;}
+
+.deneme
+{display: flex;
+  justify-content: center;
+gap: 10px;}
+.yap
+{
+  position: absolute;
+  right:200px;
+  top:-80px;
+}
+.tom
+{
+  position: absolute;
+  right:240px;
+  top:40%;
+  height: 150px;
+  height: 150px;
+}
+
+
